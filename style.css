@@ -1,0 +1,659 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300&family=Mulish:wght@200&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300&family=Mulish:wght@200&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Sedgwick+Ave+Display&display=swap");
+body {
+  background-color: #e3f0ef;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+header {
+  display: flex;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.logo {
+  width: 200px;
+  margin: 20px;
+  margin-left: 20px;
+  padding: 0px;
+}
+h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: Dongle;
+}
+
+.search {
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: black;
+}
+ul {
+  display: flex;
+  margin: 30px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+li {
+  margin-left: 40px;
+}
+.nav {
+  font-size: 25px;
+  font-family: Dongle;
+  text-decoration: none;
+}
+.nav:hover {
+  color: black; /* dae6e4*/
+  text-decoration: underline solid;
+}
+.frame1 {
+  position: relative;
+  margin-top: 10px;
+  width: 97vw;
+  height: 80vh;
+  border-radius: 20px;
+}
+.img1 {
+  position: absolute;
+  width: 97vw;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  object-fit: cover;
+  opacity: 80%;
+}
+h2 {
+  position: absolute;
+  text-align: center;
+  margin: 120px;
+  margin-left: 300px;
+  margin-top: 80px;
+  font-family: Josefin Sans;
+  font-size: 50px;
+  color: #ffffff;
+}
+.p {
+  position: absolute;
+  text-align: center;
+  margin: 120px;
+  margin-left: 300px;
+  margin-top: 150px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: #ffffff;
+}
+.quotes {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 0px;
+  margin: 15px;
+}
+.quotes-author {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+h3 {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.more {
+  align-items: center;
+}
+.morebtn {
+  height: 30px;
+  margin-left: 91vw;
+  background-color: #0e69d1;
+  color: #ffffff;
+  border-radius: 10px;
+}
+hr {
+  height: 1px;
+  background: black;
+}
+
+.card {
+  display: flex;
+}
+.card-item {
+  margin: 30px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  
+}
+.card-item:hover {
+  transform: scale(1.1);
+}
+.cardimg {
+  width: 200px;
+  border-radius: 10px;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.courses {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.course-item {
+  background-color: #ffffff;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(238, 238, 238);
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.course-item:hover {
+  opacity: 80%;
+}
+.course-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 0px;
+}
+.course-des {
+  text-align: left;
+  margin: 2px;
+}
+.sourse {
+  margin: 0px;
+}
+.star {
+  width: 70px;
+}
+.rating {
+  display: flex;
+  align-self: center;
+}
+.rupee {
+  margin: 13px;
+  width: 60px;
+}
+.books {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.book {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.book:hover {
+  transform: rotate(10deg);
+}
+.book-link {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+h5 {
+  margin: 0px;
+  color: black;
+}
+.frame5 {
+  background-color: #172337;
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+h6 {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.footConnect {
+  display: grid;
+  padding: 0;
+  margin: 0px;
+}
+.framelink {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+.innerfooter {
+  margin: 50px;
+}
+.addre {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+/* Style for Sourse Page */
+.resourse1 {
+  width: 90vw;
+  height: 40vh;
+  background: #ffffff;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 20px;
+}
+.resours-hed {
+  color: #203354;
+  margin: 10px;
+  margin-left: 270px;
+  font-size: 40px;
+  font-family: Abel;
+}
+.input {
+  margin-left: 420px;
+  margin-top: 100px;
+}
+.upload-btn {
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 450px;
+  margin-top: 50px;
+  color: #ffffff;
+  background-color: #1f82f3;
+  border-radius: 6px;
+}
+.files {
+  margin: 30px;
+  margin-left: 430px;
+  padding: 20px;
+  background: #ffffff;
+  width: 20vw;
+  height: 4vh;
+  border-radius: 20px;
+}
+.files:hover {
+  transform: scale(0.9);
+}
+a.link {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+/* Style for Dashboard page */
+.dashboard {
+  width: 800px;
+  margin-left: 160px;
+  display: flex;
+  background-color: #eecad6;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.dashboard-img {
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.user-name {
+  margin-top: 110px;
+  margin-left: 100px;
+  font-size: 30px;
+  color: #172337;
+}
+.email {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 160px;
+  color: 172337;
+  margin-left: 110px;
+}
+.course-name {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: 172337;
+  margin-left: 110px;
+}
+.form {
+  display: grid;
+  width: 30vw;
+  height: 70vh;
+  background-color: #fad9d9;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}
+.form-details {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+.login {
+  color: #000000;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.loginbtn {
+  width: 150px;
+  height: 40px;
+  margin-left: 50px;
+  border-radius: 10px;
+  background-color: #0e69d1;
+  color: #ffffff;
+  font-size: 20px;
+}
+.loginbtn:hover {
+  opacity: 80%;
+  transform: scale(0.9);
+}
+
+/* For Small devices */
+@media screen and (min-width: 300px) and (max-width: 420px) {
+  header {
+    width: 345px;
+    display: grid;
+    align-items: center;
+  }
+  .logo {
+    margin: auto;
+    width: 80px;
+    margin-left: 130px;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 20px;
+    font-family: Dongle;
+  }
+  .search {
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    margin-left: 90px;
+    border-radius: 20px;
+    border-color: rgb(74, 64, 64);
+  }
+  ul {
+    display: flex;
+    margin: 5px;
+    padding: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+  }
+  li {
+    margin-left: 27px;
+  }
+  .nav {
+    font-size: 20px;
+    font-family: Dongle;
+    text-decoration: none;
+  }
+  .frame1 {
+    position: relative;
+    margin-top: 10px;
+    width: 97vw;
+    height: 50vh;
+    border-radius: 20px;
+  }
+  .img1 {
+    position: absolute;
+    width: 97vw;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 80%;
+  }
+  h2 {
+    position: absolute;
+    text-align: center;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  .p {
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    margin-left: 19px;
+    margin-top: 150px;
+    font-family: Josefin Sans;
+    font-size: 5px;
+    color: #ffffff;
+  }
+  .quotes {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+    margin: 1px;
+  }
+  .quotes-author {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+  h3 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  hr {
+    height: 1px;
+    background: black;
+  }
+  .morebtn {
+    margin-left: 82vw;
+    opacity: 0;
+  }
+  .card {
+    width: 94vw;
+    margin-top: 20px;
+    display: inline-flex;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+  .card-item {
+    width: 300px;
+    margin: 20px;
+    margin-left: 20px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  }
+  .card-item:hover {
+    transform: scale(0.9);
+  }
+  .cardimg {
+    width: 300px;
+    border-radius: 10px;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+  .courses {
+    width: 94vw;
+    margin-top: 20px;
+    display: inline-flex;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+
+  .course-item {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 20px;
+    margin-left: 20px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  }
+
+  .course-img {
+    width: 300px;
+    height: 150px;
+    border-radius: 0px;
+    object-fit: cover;
+  }
+
+  .books {
+    width: 94vw;
+    margin-top: 20px;
+    display: inline-flex;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+  .book {
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    margin-left: 20px;
+    object-fit: fill;
+  }
+  .book:hover {
+    transform: rotate(10deg);
+  }
+  .book-link {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  h5 {
+    margin-bottom: 15px;
+    color: black;
+  }
+  .frame5 {
+    height: 300px;
+  }
+  h6 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 10px;
+  }
+  .footConnect {
+    display: grid;
+    padding: 0;
+    margin: 0px;
+  }
+  .framelink {
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  .innerfooter {
+    margin: 10px;
+  }
+  .addre {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    color: #ffffff;
+  }
+  .resours-hed {
+    color: #203354;
+    margin: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Abel;
+  }
+  .input {
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+  .upload-btn {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 80px;
+    margin-top: 90px;
+    color: #ffffff;
+    background-color: #1f82f3;
+    border-radius: 6px;
+  }
+  .files {
+    margin: 30px;
+    margin-left: 40px;
+    padding: 20px;
+    background: #ffffff;
+    width: 60vw;
+    height: 4vh;
+    border-radius: 20px;
+  }
+  .form {
+    display: grid;
+    width: 90vw;
+    height: 70vh;
+   margin-left: 10px;
+  }
+  .form-details {
+    width: 250px;
+    height: 30px;
+  }
+  .loginbtn {
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+  }
+  .dashboard {
+    width: 90vw;
+    height: 500px;
+    margin-left: 10px;
+    display: grid;
+    justify-content: center;
+  }
+  .dashboard-img {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+  }
+  .user-name {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .email {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .course-name {
+  
+    color: #172337;
+    margin-left: 20px;
+  }
+}
